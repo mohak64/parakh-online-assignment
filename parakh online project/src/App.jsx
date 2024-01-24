@@ -12,14 +12,12 @@ function App() {
     <>
       <div className='fs-1 h2'>Parakh Online Assignment</div>
       {ProductData.map((item) => (
-        <div className='container mt-5 h3'>{item.name}
+        <div className='container mt-5 h3 text-start'>{item.name}
           <div className='border border-dark border-2'>
           </div>
           <div className='d-flex gap-4 my-4'>
             {item.productList.map((product) => (
               <Product
-
-
               />
             ))}
           </div>
